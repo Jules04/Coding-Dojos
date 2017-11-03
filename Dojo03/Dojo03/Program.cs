@@ -10,7 +10,8 @@ namespace Dojo03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Julija!");
+            Console.WriteLine("Pleased to see you are making some progress in coding");
             Console.ReadLine();
         }
     }
