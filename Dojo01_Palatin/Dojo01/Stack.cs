@@ -13,7 +13,7 @@ namespace Dojo01
       
         public void Push(T item)
         {
-            if (currentElement == null)
+            if (currentElement != null)
             {
                 currentElement = new StackElement<T>() { ValueOfElement = item, Successor = null };
             }
