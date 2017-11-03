@@ -12,8 +12,8 @@ namespace Dojo01
         {
 
             TestWithObject();
-            //TestWithString();
-            //TestWithInt();
+            TestWithString();
+            TestWithInt();
             Console.ReadLine();
         }
 
