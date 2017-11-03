@@ -42,7 +42,7 @@ namespace Dojo01
  
         public T Peek()
         {
-            if (currentElement == null)
+            if (currentElement != null)
             {
                 return currentElement.ValueOfElement;
             }
